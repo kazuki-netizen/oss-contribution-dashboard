@@ -1,0 +1,1021 @@
+{
+  "version": 1,
+  "username": "kazuki-netizen",
+  "capturedAt": "2026-10-07T01:16:02.380Z",
+  "contributions": [
+    {
+      "ref": {
+        "owner": "axios",
+        "repo": "axios",
+        "number": 11294,
+        "language": "JavaScript",
+        "focus": "Base64データURLの読み取りを修正。回帰テストとメモリ確保の上限検証を追加。"
+      },
+      "pull": {
+        "status": "ok",
+        "data": {
+          "title": "fix(http): decode percent-encoded Base64 data URLs",
+          "url": "https://github.com/axios/axios/pull/11294",
+          "author": "kazuki-netizen",
+          "state": {
+            "kind": "merged",
+            "mergedAt": "2026-10-06T14:59:03.000Z"
+          },
+          "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368",
+          "updatedAt": "2026-10-06T14:59:04.000Z"
+        },
+        "fetchedAt": "2026-10-07T01:15:54.043Z"
+      },
+      "reviews": {
+        "status": "ok",
+        "data": [
+          {
+            "author": "cubic-dev-ai[bot]",
+            "isBot": true,
+            "decision": "COMMENTED",
+            "submittedAt": "2026-10-05T05:06:48.000Z"
+          },
+          {
+            "author": "cubic-dev-ai[bot]",
+            "isBot": true,
+            "decision": "COMMENTED",
+            "submittedAt": "2026-10-05T05:06:51.000Z"
+          },
+          {
+            "author": "greptile-apps[bot]",
+            "isBot": true,
+            "decision": "COMMENTED",
+            "submittedAt": "2026-10-05T05:09:53.000Z"
+          },
+          {
+            "author": "jasonsaayman",
+            "isBot": false,
+            "decision": "APPROVED",
+            "submittedAt": "2026-10-06T14:58:53.000Z"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:54.508Z"
+      },
+      "checks": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "check:CJS module tests (Node 18)",
+            "name": "CJS module tests (Node 18)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555844",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:ESM module tests (Node 26)",
+            "name": "ESM module tests (Node 26)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555693",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:ESM module tests (Node 20)",
+            "name": "ESM module tests (Node 20)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555676",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:ESM module tests (Node 24)",
+            "name": "ESM module tests (Node 24)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555667",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:CJS smoke tests (Node 12)",
+            "name": "CJS smoke tests (Node 12)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555550",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:CJS module tests (Node 12)",
+            "name": "CJS module tests (Node 12)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555546",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:ESM module tests (Node 22)",
+            "name": "ESM module tests (Node 22)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555401",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:CJS smoke tests (Node 16)",
+            "name": "CJS smoke tests (Node 16)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555282",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:ESM smoke tests (Node 24)",
+            "name": "ESM smoke tests (Node 24)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555236",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:Bun smoke tests",
+            "name": "Bun smoke tests",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555234",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:CJS module tests (Node 16)",
+            "name": "CJS module tests (Node 16)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555202",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:CJS module tests (Node 14)",
+            "name": "CJS module tests (Node 14)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555195",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:CJS smoke tests (Node 14)",
+            "name": "CJS smoke tests (Node 14)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555188",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:Deno smoke tests",
+            "name": "Deno smoke tests",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555175",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:ESM smoke tests (Node 26)",
+            "name": "ESM smoke tests (Node 26)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555171",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:CJS smoke tests (Node 18)",
+            "name": "CJS smoke tests (Node 18)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555166",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:ESM smoke tests (Node 20)",
+            "name": "ESM smoke tests (Node 20)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555151",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:ESM smoke tests (Node 22)",
+            "name": "ESM smoke tests (Node 22)",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112332555123",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:zizmor",
+            "name": "zizmor",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/runs/112331343653",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:zizmor",
+            "name": "zizmor",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612920/job/112331241539",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:Build and run vitest",
+            "name": "Build and run vitest",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915/job/112331212403",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:bundle-size",
+            "name": "bundle-size",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612882/job/112331185602",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:Two-pass build and diff",
+            "name": "Two-pass build and diff",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612875/job/112331166347",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:Socket Security: Pull Request Alerts",
+            "name": "Socket Security: Pull Request Alerts",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://socket.dev/",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:Greptile Review",
+            "name": "Greptile Review",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://greptile.com/",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:cubic · AI code reviewer",
+            "name": "cubic · AI code reviewer",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://www.cubic.dev/pr/axios/axios/pull/11294",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "check:Socket Security: Project Report",
+            "name": "Socket Security: Project Report",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://socket.dev/dashboard/org/axios/sbom/cd0e08df-eb64-4d55-a68e-aabb6f738afa",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:54.533Z"
+      },
+      "statuses": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:15:54.376Z"
+      },
+      "workflows": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "workflow:263659892",
+            "name": "Verify build reproducibility",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612875",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "workflow:278336092",
+            "name": "Bundle Size",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612882",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "workflow:254566230",
+            "name": "GitHub Actions Security Analysis with zizmor",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612920",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          },
+          {
+            "key": "workflow:226646854",
+            "name": "Continuous integration",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/axios/axios/actions/runs/37481612915",
+            "headSha": "68a7d77df3739b38cc91f7cf790a1440aa566368"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:54.435Z"
+      }
+    },
+    {
+      "ref": {
+        "owner": "vuejs",
+        "repo": "core",
+        "number": 15769,
+        "language": "TypeScript",
+        "focus": "SSRで空文字・0・falseを正しく反映するように修正し、回帰テストを追加。"
+      },
+      "pull": {
+        "status": "ok",
+        "data": {
+          "title": "fix(ssr): honor falsy vnode content overrides",
+          "url": "https://github.com/vuejs/core/pull/15769",
+          "author": "kazuki-netizen",
+          "state": {
+            "kind": "open"
+          },
+          "headSha": "f0df996a5f9fdc2ce73585a024ddcdb6e54394c7",
+          "updatedAt": "2026-10-05T03:38:35.000Z"
+        },
+        "fetchedAt": "2026-10-07T01:15:55.454Z"
+      },
+      "reviews": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:15:55.735Z"
+      },
+      "checks": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "check:Redirect rules",
+            "name": "Redirect rules",
+            "status": "completed",
+            "conclusion": "neutral",
+            "url": "https://app.netlify.com/projects/vue-sfc-playground/deploys/6ac30473a3fba40008f38b37",
+            "headSha": "f0df996a5f9fdc2ce73585a024ddcdb6e54394c7"
+          },
+          {
+            "key": "check:Header rules",
+            "name": "Header rules",
+            "status": "completed",
+            "conclusion": "neutral",
+            "url": "https://app.netlify.com/projects/vue-sfc-playground/deploys/6ac30473a3fba40008f38b37",
+            "headSha": "f0df996a5f9fdc2ce73585a024ddcdb6e54394c7"
+          },
+          {
+            "key": "check:Pages changed",
+            "name": "Pages changed",
+            "status": "completed",
+            "conclusion": "neutral",
+            "url": "https://app.netlify.com/projects/vue-sfc-playground/deploys/6ac30473a3fba40008f38b37",
+            "headSha": "f0df996a5f9fdc2ce73585a024ddcdb6e54394c7"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:55.780Z"
+      },
+      "statuses": {
+        "status": "ok",
+        "data": [
+          {
+            "name": "CodeRabbit",
+            "state": "success",
+            "url": null
+          },
+          {
+            "name": "deploy/netlify",
+            "state": "success",
+            "url": "https://deploy-preview-15769--vue-sfc-playground.netlify.app/"
+          },
+          {
+            "name": "Vercel",
+            "state": "success",
+            "url": "https://vercel.com/vuejs/sfc-playground/98a1DQbKKG7Aw7krtvKoBfkYK7G7"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:55.767Z"
+      },
+      "workflows": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "workflow:68059734",
+            "name": "autofix.ci",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/vuejs/core/actions/runs/37253567668",
+            "headSha": "f0df996a5f9fdc2ce73585a024ddcdb6e54394c7"
+          },
+          {
+            "key": "workflow:66813149",
+            "name": "size data",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/vuejs/core/actions/runs/37253567721",
+            "headSha": "f0df996a5f9fdc2ce73585a024ddcdb6e54394c7"
+          },
+          {
+            "key": "workflow:8857134",
+            "name": "ci",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/vuejs/core/actions/runs/37253567747",
+            "headSha": "f0df996a5f9fdc2ce73585a024ddcdb6e54394c7"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:55.951Z"
+      }
+    },
+    {
+      "ref": {
+        "owner": "supabase",
+        "repo": "supabase-js",
+        "number": 2489,
+        "language": "TypeScript",
+        "focus": "フィルター値のエスケープを修正。実際のPostgRESTを使う統合テストを追加。"
+      },
+      "pull": {
+        "status": "ok",
+        "data": {
+          "title": "fix(postgrest): escape embedded quotes and backslashes in in()/notIn() filter values",
+          "url": "https://github.com/supabase/supabase-js/pull/2489",
+          "author": "kazuki-netizen",
+          "state": {
+            "kind": "open"
+          },
+          "headSha": "5359cc99fed7c79b73b8a6fed19d0cf49064656f",
+          "updatedAt": "2026-10-05T02:18:45.000Z"
+        },
+        "fetchedAt": "2026-10-07T01:15:56.820Z"
+      },
+      "reviews": {
+        "status": "ok",
+        "data": [
+          {
+            "author": "mandarini",
+            "isBot": false,
+            "decision": "CHANGES_REQUESTED",
+            "submittedAt": "2026-07-29T13:39:03.000Z"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:57.359Z"
+      },
+      "checks": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "check:[code]smith",
+            "name": "[code]smith",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://backend.blacksmith.sh/track/enable-autofix?expires=1793758738&installation_model_id=4662&pr_number=2489&ref=codesmith_check&repository=supabase%2Fsupabase-js&return_to=https%3A%2F%2Fgithub.com%2Fsupabase%2Fsupabase-js%2Fpull%2F2489&utm_campaign=supabase%2Fsupabase-js&utm_source=codesmith-check&signature=9b9f44d610f6a0b8e6122a006b5bc815b36b1cb8cedf027580fb093a4aeeac8d",
+            "headSha": "5359cc99fed7c79b73b8a6fed19d0cf49064656f"
+          },
+          {
+            "key": "check:semgrep-cloud-platform/scan",
+            "name": "semgrep-cloud-platform/scan",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://semgrep.dev/orgs/supabase/projects/5157261/scans/239621202",
+            "headSha": "5359cc99fed7c79b73b8a6fed19d0cf49064656f"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:57.184Z"
+      },
+      "statuses": {
+        "status": "ok",
+        "data": [
+          {
+            "name": "CodeRabbit",
+            "state": "success",
+            "url": null
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:57.141Z"
+      },
+      "workflows": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "workflow:180806674",
+            "name": "Preview release",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/supabase/supabase-js/actions/runs/37254575762",
+            "headSha": "5359cc99fed7c79b73b8a6fed19d0cf49064656f"
+          },
+          {
+            "key": "workflow:3326688",
+            "name": "CI (Pull Requests)",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/supabase/supabase-js/actions/runs/37254575838",
+            "headSha": "5359cc99fed7c79b73b8a6fed19d0cf49064656f"
+          },
+          {
+            "key": "workflow:293883825",
+            "name": "SDK Compliance",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/supabase/supabase-js/actions/runs/37254576087",
+            "headSha": "5359cc99fed7c79b73b8a6fed19d0cf49064656f"
+          },
+          {
+            "key": "workflow:197807133",
+            "name": "Block WIP/Draft Merges",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/supabase/supabase-js/actions/runs/37254576429",
+            "headSha": "5359cc99fed7c79b73b8a6fed19d0cf49064656f"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:57.185Z"
+      }
+    },
+    {
+      "ref": {
+        "owner": "date-fns",
+        "repo": "date-fns",
+        "number": 4352,
+        "language": "TypeScript",
+        "focus": "日・月・年の範囲処理で、小数のステップによる不整合を修正。"
+      },
+      "pull": {
+        "status": "ok",
+        "data": {
+          "title": "Fix fractional calendar interval steps",
+          "url": "https://github.com/date-fns/date-fns/pull/4352",
+          "author": "kazuki-netizen",
+          "state": {
+            "kind": "open"
+          },
+          "headSha": "89c5d238a4af139e55575c1fff6e91f35640aa06",
+          "updatedAt": "2026-10-05T05:17:29.000Z"
+        },
+        "fetchedAt": "2026-10-07T01:15:58.141Z"
+      },
+      "reviews": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:15:58.447Z"
+      },
+      "checks": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:15:58.451Z"
+      },
+      "statuses": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:15:58.437Z"
+      },
+      "workflows": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "workflow:78214877",
+            "name": "Smoke tests",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/date-fns/date-fns/actions/runs/37266988419",
+            "headSha": "89c5d238a4af139e55575c1fff6e91f35640aa06"
+          },
+          {
+            "key": "workflow:83247481",
+            "name": "Time zone tests",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/date-fns/date-fns/actions/runs/37266988404",
+            "headSha": "89c5d238a4af139e55575c1fff6e91f35640aa06"
+          },
+          {
+            "key": "workflow:78214334",
+            "name": "Code quality",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/date-fns/date-fns/actions/runs/37266988437",
+            "headSha": "89c5d238a4af139e55575c1fff6e91f35640aa06"
+          },
+          {
+            "key": "workflow:78062821",
+            "name": "Browser tests",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/date-fns/date-fns/actions/runs/37266988461",
+            "headSha": "89c5d238a4af139e55575c1fff6e91f35640aa06"
+          },
+          {
+            "key": "workflow:6283069",
+            "name": "Node.js tests",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/date-fns/date-fns/actions/runs/37266988424",
+            "headSha": "89c5d238a4af139e55575c1fff6e91f35640aa06"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:58.570Z"
+      }
+    },
+    {
+      "ref": {
+        "owner": "Kludex",
+        "repo": "starlette",
+        "number": 3622,
+        "language": "Python",
+        "focus": "型付きmemoryviewのレスポンスでContent-Lengthを正しく算出。"
+      },
+      "pull": {
+        "status": "ok",
+        "data": {
+          "title": "Fix Content-Length for typed and scalar memoryview responses",
+          "url": "https://github.com/Kludex/starlette/pull/3622",
+          "author": "kazuki-netizen",
+          "state": {
+            "kind": "open"
+          },
+          "headSha": "e48eba694d268083bf518cd4f025e386c834f248",
+          "updatedAt": "2026-10-05T05:03:04.000Z"
+        },
+        "fetchedAt": "2026-10-07T01:15:59.626Z"
+      },
+      "reviews": {
+        "status": "ok",
+        "data": [
+          {
+            "author": "cubic-dev-ai[bot]",
+            "isBot": true,
+            "decision": "COMMENTED",
+            "submittedAt": "2026-10-05T04:56:49.000Z"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:16:00.010Z"
+      },
+      "checks": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "check:CodSpeed Performance Analysis",
+            "name": "CodSpeed Performance Analysis",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://app.codspeed.io/Kludex/starlette/branches/kazuki-netizen%3Afix%2Fmemoryview-content-length?utm_source=github&utm_medium=check&utm_content=details",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:check",
+            "name": "check",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603480/job/111621914866",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:zizmor",
+            "name": "zizmor",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/runs/111621709873",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:cubic · AI code reviewer",
+            "name": "cubic · AI code reviewer",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://www.cubic.dev/pr/Kludex/starlette/pull/3622",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:Docs preview (Cloudflare)",
+            "name": "Docs preview (Cloudflare)",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603480/job/111621657712",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:Python 3.13",
+            "name": "Python 3.13",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603480/job/111621656672",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:Python 3.12",
+            "name": "Python 3.12",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603480/job/111621656642",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:Python 3.11",
+            "name": "Python 3.11",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603480/job/111621656631",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:Python 3.14",
+            "name": "Python 3.14",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603480/job/111621656613",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:Python 3.15",
+            "name": "Python 3.15",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603480/job/111621656501",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:Run benchmarks",
+            "name": "Run benchmarks",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603430/job/111621656113",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "check:zizmor",
+            "name": "zizmor",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603427/job/111621656090",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:16:00.020Z"
+      },
+      "statuses": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:15:59.894Z"
+      },
+      "workflows": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "workflow:275347804",
+            "name": "GitHub Actions Security Analysis",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603427",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "workflow:187017849",
+            "name": "Test Suite",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603480",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          },
+          {
+            "key": "workflow:326899390",
+            "name": "CodSpeed",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37265603430",
+            "headSha": "e48eba694d268083bf518cd4f025e386c834f248"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:15:59.987Z"
+      }
+    },
+    {
+      "ref": {
+        "owner": "Kludex",
+        "repo": "starlette",
+        "number": 3623,
+        "language": "Python",
+        "focus": "ファイルの分割ストリーミングと、切断時のリソース管理を文書・テストで改善。"
+      },
+      "pull": {
+        "status": "ok",
+        "data": {
+          "title": "Document bounded file streaming and file ownership",
+          "url": "https://github.com/Kludex/starlette/pull/3623",
+          "author": "kazuki-netizen",
+          "state": {
+            "kind": "open"
+          },
+          "headSha": "e0d12b723875e547fe12afb818e755e763977bb1",
+          "updatedAt": "2026-10-05T06:05:32.000Z"
+        },
+        "fetchedAt": "2026-10-07T01:16:00.773Z"
+      },
+      "reviews": {
+        "status": "ok",
+        "data": [
+          {
+            "author": "cubic-dev-ai[bot]",
+            "isBot": true,
+            "decision": "COMMENTED",
+            "submittedAt": "2026-10-05T05:59:57.000Z"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:16:01.198Z"
+      },
+      "checks": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "check:CodSpeed Performance Analysis",
+            "name": "CodSpeed Performance Analysis",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://app.codspeed.io/Kludex/starlette/branches/kazuki-netizen%3Adocs%2Fstreaming-file-lifetime?utm_source=github&utm_medium=check&utm_content=details",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:check",
+            "name": "check",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119245/job/111635341132",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:zizmor",
+            "name": "zizmor",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/runs/111635183594",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:cubic · AI code reviewer",
+            "name": "cubic · AI code reviewer",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://www.cubic.dev/pr/Kludex/starlette/pull/3623",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:Docs preview (Cloudflare)",
+            "name": "Docs preview (Cloudflare)",
+            "status": "completed",
+            "conclusion": "skipped",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119245/job/111635134752",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:zizmor",
+            "name": "zizmor",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119244/job/111635134330",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:Python 3.14",
+            "name": "Python 3.14",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119245/job/111635134021",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:Python 3.13",
+            "name": "Python 3.13",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119245/job/111635133991",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:Python 3.15",
+            "name": "Python 3.15",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119245/job/111635133959",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:Python 3.12",
+            "name": "Python 3.12",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119245/job/111635133952",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:Run benchmarks",
+            "name": "Run benchmarks",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119342/job/111635133842",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "check:Python 3.11",
+            "name": "Python 3.11",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119245/job/111635133780",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:16:01.198Z"
+      },
+      "statuses": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:16:01.047Z"
+      },
+      "workflows": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "workflow:326899390",
+            "name": "CodSpeed",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119342",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "workflow:275347804",
+            "name": "GitHub Actions Security Analysis",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119244",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          },
+          {
+            "key": "workflow:187017849",
+            "name": "Test Suite",
+            "status": "completed",
+            "conclusion": "success",
+            "url": "https://github.com/Kludex/starlette/actions/runs/37270119245",
+            "headSha": "e0d12b723875e547fe12afb818e755e763977bb1"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:16:01.198Z"
+      }
+    },
+    {
+      "ref": {
+        "owner": "iamkun",
+        "repo": "dayjs",
+        "number": 3245,
+        "language": "JavaScript",
+        "focus": "UTCオフセットがある場合のタイムスタンプを修正。依存PRの採用待ちでDraft。"
+      },
+      "pull": {
+        "status": "ok",
+        "data": {
+          "title": "fix(advancedFormat): preserve timestamps with UTC offsets",
+          "url": "https://github.com/iamkun/dayjs/pull/3245",
+          "author": "kazuki-netizen",
+          "state": {
+            "kind": "draft"
+          },
+          "headSha": "8a71431d1c758cfa8ee7c463fe3c3f80bd8e9bb6",
+          "updatedAt": "2026-10-05T05:23:08.000Z"
+        },
+        "fetchedAt": "2026-10-07T01:16:02.081Z"
+      },
+      "reviews": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:16:02.360Z"
+      },
+      "checks": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:16:02.380Z"
+      },
+      "statuses": {
+        "status": "ok",
+        "data": [],
+        "fetchedAt": "2026-10-07T01:16:02.370Z"
+      },
+      "workflows": {
+        "status": "ok",
+        "data": [
+          {
+            "key": "workflow:27962469",
+            "name": "Lint & Unit Test",
+            "status": "completed",
+            "conclusion": "action_required",
+            "url": "https://github.com/iamkun/dayjs/actions/runs/37267277961",
+            "headSha": "8a71431d1c758cfa8ee7c463fe3c3f80bd8e9bb6"
+          }
+        ],
+        "fetchedAt": "2026-10-07T01:16:02.378Z"
+      }
+    }
+  ]
+}
